@@ -1,0 +1,342 @@
+/*head*/
+.head{
+    height: 80px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.head_con{
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+}
+.head_con img{
+    display: inline-block;
+    margin-top: 18px;
+}
+.head_con span{
+    float: right;
+}
+.head_con span a{
+    font-size: 14px;
+    line-height: 80px;
+    color: #333;
+    font-weight:500;
+}
+/*nav*/
+.nav{
+    width: 960px;
+    margin: 0 auto;
+    height: 45px;
+
+}
+.nav ul{
+    height: 45px;
+    margin-top: -1px;
+}
+.nav ul li{
+    float: left;
+    margin: 0 42px 0 42px;
+    line-height: 45px;
+}
+.nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+.nav ul li.active a{
+    color: #b9262c;
+    border-top:3px solid #b9262c;
+    line-height: 42px;
+    display: inline-block;
+    height: 42px;
+    margin-top: -2px;
+}
+.nav ul li a:hover{
+    color: #b9262c;
+    border-top:3px solid #b9262c;
+    line-height: 42px;
+    display: inline-block;
+    height: 42px;
+    margin-top: -2px;
+}
+.nav ul li.first{
+    margin-left: 15px;
+}
+/*banner*/
+.banner{
+    height: 350px;
+    width: 100%;
+    background: url("../img/img_about_k/banner.jpg")no-repeat top center;
+    background-size: cover;
+}
+/*con*/
+.con{
+    width: 960px;
+    margin: 32px auto;
+}
+.con .con_left{
+    width: 200px;
+    float: left;
+}
+.con .con_left ul li{
+    line-height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.con_left ul li.last{
+    border-bottom: none;
+}
+.con_left ul li a{
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    height: 52px;
+    background: url("../img/img_about_k/con_icon.png")no-repeat 185px center;
+    text-decoration: none;
+    color: #333;
+}
+.con_left ul li a:hover{
+    border: none;
+    color: #fff;
+    background:#b9262c;
+    background-image:url("../img/img_about_k/con_iconcur.png");
+    background-repeat: no-repeat;
+    background-position:185px center;
+}
+.con_left ul li.cur a{
+    border: none;
+    color: #fff;
+    background:#b9262c;
+    background-image:url("../img/img_about_k/con_iconcur.png");
+    background-repeat: no-repeat;
+    background-position:185px center;
+}
+.con_left ul li a span{
+    margin-left: 17px;
+}
+.con_right{
+    float: left;
+    margin-left: 30px;
+    width: 730px;
+    padding-top: 15px;
+}
+.con_right h3{
+    font-size: 16px;
+    color: #b9262c;
+}
+
+.con_right p{
+    padding-top: 30px;
+    text-indent:2em;
+    font-size: 14px;
+    line-height: 22px;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 120px;
+    background: #313235;
+    color: #fff;
+}
+.footer_con{
+    width: 960px;
+    margin: 0 auto;
+    height: 120px;
+}
+.fo_left{
+    width: 585px;
+    float: left;
+}
+.fo_left ul{
+    height: 20px;
+   clear: right;
+    padding-top: 25px;
+}
+.fo_left ul li{
+    float: left;
+}
+.fo_left ul li span{
+    margin: 0 15px 0 15px;
+}
+.fo_left p{
+    padding-top: 10px;
+}
+.fo_right{
+    width: 375px;
+    float: left;
+    padding-top: 20px;
+
+}
+.fo_img{
+    float: left;
+    width: 104px;
+}
+.fo_text{
+    float: left;
+    width: 270px;
+}
+.fo_text p{
+  line-height: 21px;
+}
+
+
+/*团队介绍*/
+.con_right2{
+    float: left;
+    margin-left: 30px;
+    width: 730px;
+}
+.con_right2 .team_img{
+    width: 110px;
+    float: left;
+}
+.con_right2 .team_text{
+    float: left;
+    margin-left: 20px;
+    width: 600px;
+}
+.con_right2 .team_text h3{
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.con_right2 .team_text h3 span{
+    color: #b9262c;
+}
+.con_right2 .team_text p{
+    line-height: 22px;
+}
+
+/*投资体系*/
+.con_right3{
+    float: left;
+    margin-left: 30px;
+    width: 730px;
+    padding-top: 15px;
+}
+.con_right3 h3{
+    color: #b9262c;
+    font-size: 16px;
+}
+.con_right3 p{
+    padding-top: 30px;
+    text-indent:2em;
+    font-size: 14px;
+    line-height: 22px;
+}
+.con_right3 p.red{
+    padding-top: 20px;
+    color: #b9262c;
+    text-indent:0em;
+}
+.con_right3 p.cur{
+    font-weight: bold;
+    padding-top: 10px;
+    text-indent:0em;
+}
+.con_right3 p.answer{
+    padding-top: 5px;
+}
+/*发展历程*/
+.con_right4{
+    float: left;
+    margin-left: 35px;
+    width: 725px;
+    padding: 20px 0;
+}
+.con_right4 .line{
+    width: 100%;
+    border-left: 1px solid #b9262c;
+}
+.con_right4 .line h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b9262c;
+    line-height: 33px;
+    margin-left: -6px;
+    margin-top: -12px;
+    padding-left: 23px;
+    background:url("../img/img_about_k/biground.png") no-repeat left center;
+}
+.con_right4 .line ul li{
+    line-height: 26px;
+    margin-left: -3px;
+    padding-left: 23px;
+    background:url("../img/img_about_k/smaround.png") no-repeat left center;
+}
+
+.con_right4 .line ul li a{
+    display: inline-block;
+    width: 500px;
+    text-decoration: none;
+    cursor: default;
+}
+.con_right4 .line ul li span{
+    color: #999999;
+}
+/*媒体报道*/
+.con_right6{
+    float: left;
+    margin-left: 20px;
+    width: 740px;
+    padding-top: 15px;
+}
+.con_right6 h3{
+    color: #b9262c;
+    font-size: 16px;
+}
+.medium{
+    width: 100%;
+    padding-top: 15px;
+}
+.medium ul li{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+}
+.medium ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #666;
+}
+.medium ul li a:hover{
+    background: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+}
+.medium ul li a span{
+    float: right;
+}
+.page ul{
+    display: inline-block;
+    float: right;
+}
+.page ul li{
+    float: left;
+}
+.page ul li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #d6d8de;
+    margin-right: 5px;
+}
+.page ul li.cur a{
+    background: #b9262c;
+    color: #fff;
+    border: 0;
+    width: 32px;
+    height: 32px;
+}
+.page ul li a:hover{
+    background: #b9262c;
+    color: #fff;
+    border: 0;
+    width: 32px;
+    height: 32px;
+}
